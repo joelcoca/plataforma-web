@@ -1,0 +1,11 @@
+.color-blue{
+    background-color: blue;
+}
+.boton-agregar{
+     position: relative;left: 95%;
+     background-color: blue;
+}
+.Tabla ,th,td{
+    border: 1px black solid;
+    border-collapse: collapse;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>FORMULARIO</title>
+    <link href="/css/stilos.css" rel="stylesheet" />
+    <script src="Peli.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Película</h1>
+        <form id="my-form">
+            <div class="elemento">
+                <label for="titulo" usuario>Titulo</label>
+                <input type="text" id="titulo" name="titulo" />
+            </div>
+            <div class="elemento">
+                <label for="descripcion">Descripcion</label>
+                <input type="text" id="descripcion" name="descripcion" />
+            </div>
+            <div class="elemento">
+                <label for="genero">Genero</label>
+                <input type="text" name="genero" id="genero" />
+            </div>
+            <div class="elemento">
+                <button type="button" onClick="add()">Guardar</button> 
+            </div>
+        </form>
+    </div>
+    <br><br>
+    <div>
+        <table class="mytable">
+            <tbody>
+                 <tr>
+                    <td>Titulo</td>
+                    <td>Descripcion</td>
+                    <td>Genero</td>
+                </tr>
+            </tbody>
+        </table>
+         
+    </div>
+</body>
+
+</html>
