@@ -1,0 +1,22 @@
+#contenido {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.content-data {
+  border: 3px solid rgb(216, 57, 46);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 30%;
+  padding: 2%;
+  margin-bottom: 3%;
+}
+
+.content-data div {
+  padding: 3%;
+}
+
+img {
+  height: 100px;
+}
